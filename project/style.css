@@ -1,0 +1,49 @@
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 4%;
+}
+
+img {
+    width: 130px;
+    height: auto;
+    display: block;
+}
+
+.nav-rights{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+   
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+
+
+}
+
+
+#home {
+text-decoration: underline;
+
+
+}
+
+#banner {
+    position: relative;
+    width: 100%;
+
+
+
+}
+
+#teksti {
+    position: absolute;
+    top:  50%;
+    left: 10%;
+
+}
