@@ -9,6 +9,7 @@
 <body>
 
 
+
     <nav class="navbar">
    <!-- <a href="index.php"> -->
  <!-- <h1 id="emri" > NAILS BY LILI </h1> -->
@@ -53,11 +54,7 @@
     <input type="name" placeholder="Name"><br>
     <input type="email" placeholder="Email"><br>
     <textarea id="text" placeholder="Message"> </textarea>
-     <button type="submit" name="submit" class="w-100 btn btn-lg btn-primary"> Send message </button>
-
-   
-
-
+    
 </div>
 
 </body>

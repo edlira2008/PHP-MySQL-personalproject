@@ -82,10 +82,13 @@
 
     </div>
     </nav>
+  
 
-
+<br>
+<br>
 <div class="pjesa2" >
 <h1 id="us"> About Us </p>
+<br>
 <h4 id="lili">
     Hi , I'm Lili 
 </h4>
@@ -93,6 +96,7 @@
 
 <div id="nail1" >
     <ul>
+        <br>
     <li id="nail" >    I'm nail artist with a passion for creating <br>
 beautiful , clean and long-lasting nails. My goal <br>
 is to make you feel confident, relaxed and always beautiful.
