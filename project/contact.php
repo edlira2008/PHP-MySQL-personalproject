@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Contact </title>
-    <link rel="stylesheet" href="./style1.css">
+    <link rel="stylesheet" href="./style.css">
    
 </head>
 
@@ -63,13 +63,13 @@
 
 </div>
 
-<form class="form1">
-    <input id="name" type="name" placeholder="Name" autocomplete="on"><br>
-    <input id="email" type="email" placeholder="Email" autocomplete="off" ><br>
+<form action="send_message.php" method="POST" class="form1">
+    <input id="name" type="name" name="name" placeholder="Name" autocomplete="on"><br>
+    <input id="email" type="email" name="email" placeholder="Email" autocomplete="off" ><br>
 
-    <textarea id="text" placeholder="Message"> </textarea>
+    <textarea id="text" name="message" placeholder="Message" required> </textarea>
 
-    <button id="ms" > Send message </button>
+    <button id="ms" type="submit"> Send message </button>
 
 </form>
     

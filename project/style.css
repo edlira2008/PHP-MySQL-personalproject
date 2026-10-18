@@ -263,7 +263,7 @@ textarea {
 #gallery 
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 35px;;
+    font-size: 240%;;
 }
 
 #p1 {
@@ -365,3 +365,54 @@ border-radius: 15px;
  #book1:hover {
     color: grey;
  }
+
+ .appointment {
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 25px;
+   padding-bottom: 25px;
+
+ }
+
+
+ #options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+
+ label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+;padding-bottom: 10px;
+    
+ }
+ 
+ select {
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;;
+    border: 15x grey;
+
+ 
+
+ }
+
+ option {
+    color: grey;
+ }
+
+
+ #ms1 {
+    background-color: #f7bbbe;
+    border:  #f7bbbe;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+  
+ }
+
+

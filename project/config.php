@@ -4,7 +4,7 @@
 $server='localhost';
 $user="root";
 $pass="";
-$dbname="movie_project";
+$dbname="studio";
 
 try{
     $conn = new PDO("mysql:host=$server;dbname=$dbname" , $user , $pass);
