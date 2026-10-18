@@ -3,26 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="bootstrap.js">
-     <link rel="stylesheet" href="bootstrap.css">
-
-     
+    <link rel="stylesheet" href="./style1.css">
     <title> Nails by lili </title>
 </head>
 <body>
     <nav class="navbar">
-   <!-- <a href="index.php"> -->
- <!-- <h1 id="emri" > NAILS BY LILI </h1> -->
+
      <img id="logo" src="images/logo.png"> 
-    <!-- </a> -->
+    
 
     <div class="nav-rights">
         <div class="nav-links">
             <a id="home" href="index.php">Home </a>
-            <a href="services.php">Services  </a>
             <a href="gallery.php"> Gallery  </a>
             <a href="contact.php"> Contact </a>
+          <a id="book1"  href="book.php"> Book now   </a> 
 
         </div>
 
@@ -72,11 +67,11 @@
     </a>
 
     <div class="nav-rights">
-        <div class="nav-links">
+        <div class="nav-link1">
             <a id="home" href="index.php">Home </a>
-            <a href="services.php">Services  </a>
             <a href="gallery.php"> Gallery  </a>
             <a href="contact.php"> Contact </a>
+           <a id="book1"  href="book.php"> Book now   </a> 
 
         </div>
 
@@ -84,11 +79,10 @@
     </nav>
   
 
-<br>
-<br>
+
 <div class="pjesa2" >
 <h1 id="us"> About Us </p>
-<br>
+
 <h4 id="lili">
     Hi , I'm Lili 
 </h4>
