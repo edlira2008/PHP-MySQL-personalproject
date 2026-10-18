@@ -17,6 +17,7 @@
             <a id="home" href="index.php">Home </a>
             <a href="gallery.php"> Gallery  </a>
             <a href="contact.php"> Contact </a>
+    
           <a id="book1"  href="book.php"> Book now   </a> 
 
         </div>
