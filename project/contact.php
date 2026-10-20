@@ -64,7 +64,7 @@
 </div>
 
 <form action="send_message.php" method="POST" class="form1">
-    <input id="name" type="name" name="name" placeholder="Name" autocomplete="on"><br>
+    <input id="name1" type="name" name="name" placeholder="Name" autocomplete="on"><br>
     <input id="email" type="email" name="email" placeholder="Email" autocomplete="off" ><br>
 
     <textarea id="text" name="message" placeholder="Message" required> </textarea>

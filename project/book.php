@@ -25,17 +25,30 @@
     </div>
     </nav>
 
+    <div class="appointment" >
+
+     <div class="text">
 
 
-    <div class="text">
    <h1 id="gallery" > Book Your Appointment </h1>
    <p id="p1"> Choose a date, time and service. We'll take care of the rest! </p>
     </div>
 
+<form action="save_appointments.php" method="POST">
+
+    <div class="form22" >
+
+    <label id="full"> Full name </label> 
+    <input id="name"  name="name"> 
+
+    <label id="surname1" > Surname </label> 
+    <input id="surname" type="surname" name="surname">
+ 
+
+</div> 
 
 
 
-<div class="appointment" >
 
 <div id="options">
     <label id="service" name="service"> Service </label><br>
@@ -117,7 +130,7 @@
 
 </div>
 
-
+</form>
 
 
 
