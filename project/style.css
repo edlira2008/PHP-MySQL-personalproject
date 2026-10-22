@@ -238,7 +238,7 @@ h4 {
    
 }
 
-#name , #surname  {
+#full , #surname1 , #date , #time , #service  {
     width: 90%;
     margin: 10px;
     height: 35%;
@@ -246,6 +246,12 @@ h4 {
 }
 
 
+#name , #surname {
+     width: 90%;
+    margin: 10px;
+    height: 35%;
+    padding: 10px;
+}
 
 #ms {
     width: 110%;
@@ -388,11 +394,11 @@ border-radius: 15px;
  }
 
 
- #options {
+ /* #options {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
- }
+ } */
 
 
  
@@ -446,4 +452,3 @@ border-radius: 15px;
    font-family: Arial, Helvetica, sans-serif;
    margin: 10px;
 }
-
