@@ -51,7 +51,6 @@
     <input id="time" type="time" name="appointment_time" required> 
 
 
-    <!-- <div id="options"> -->
     <label id="service" name="service"> Service </label><br>
 
 <select name="service"> 
