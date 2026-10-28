@@ -13,14 +13,10 @@ body {
 
 #emri {
     font-size: 25px;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-/* img {
-    width: 180px;
-    height: auto;
-    display: block;
-} */
+
 
 .nav-rights{
     display: flex;
@@ -33,7 +29,6 @@ body {
 .nav-links a{
     
     text-decoration: none;
-    
     font-size: 18px;
     color: black;
     gap: 25px;
@@ -232,8 +227,8 @@ h4 {
     flex-direction: column;
     align-items: flex-end;
     position: absolute;
-   top: 32.5%;
-   left: 65%;
+    top: 45%;
+    left: 65%;
  
    
 }
@@ -451,4 +446,153 @@ border-radius: 15px;
 .form22 label {
    font-family: Arial, Helvetica, sans-serif;
    margin: 10px;
+}
+
+.sidebar {
+  
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+   
+} 
+
+
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:20%;
+    height: 100vh;
+    padding: 35px 25px;
+    background-color: #ffdadc;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 30%;
+   
+
+}
+
+ #link {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20%;
+
+}
+
+#link a {
+    text-decoration: none;
+    font-size: 95%;
+    color: black;
+    
+
+}
+#logo33 {
+    width: 100%;
+    margin-bottom: 50px;
+    padding-top: 6%;
+}
+
+#pjs22 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ #welcome {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
+    color: grey;
+}
+
+#db1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#tabela1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+    padding: 25px;
+    
+}
+
+th {
+    padding: 10px;
+    color:#fcb1b5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffdddf;
+   
+}
+
+td {
+    border-bottom: 1px solid #fbd7d9;
+    padding: 18px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+ 
+}
+
+#table-card {
+     border: 1px solid #fbd7d9;
+     border-top-left-radius: 10px;
+}
+
+#recent , #recent1 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#btn90 {
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: #fcb1b5;
+
+}
+
+#form88 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+#form88 input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fcb1b5;;
+    
+}
+
+#form88 button {
+    width: 17%;
+    
+}
+
+#editadd {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
 }

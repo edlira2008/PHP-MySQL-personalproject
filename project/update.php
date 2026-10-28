@@ -11,13 +11,15 @@ if(isset($_POST['submit'])){
     $appointment_time=$_POST['appointment_time'];
   
 
-    $sql="UPDATE appointments SET name='$name', surname='$surname', service='$service' , appointment_date='$appointment_date' , appointment_time='$appointment_time'  WHERE id=$id";
+    $sql="UPDATE appointments SET name='$name', surname='$surname', service='$service' , 
+    appointment_date='$appointment_date' , appointment_time='$appointment_time'  WHERE id=$id";
 
       $prep=$conn->prepare($sql);
       $prep->execute();
+      
       echo 'new record created succesfully!';
 
-      header ("Location: index.php");
+      header ("Location: dashboard.php");
 
 }
 

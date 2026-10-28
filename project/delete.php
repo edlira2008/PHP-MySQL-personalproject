@@ -24,3 +24,8 @@ $deleteMessages= $conn->prepare($statement);
 
 $deleteMessages-> bindParam(':id', $id);
 $deleteMessages-> execute();
+
+      header ("Location: dashboard.php");
+
+
+      ?>

@@ -7,27 +7,33 @@
     <title> Dashboard | Nails by lili </title>
 </head>
 <body>
+ <aside class="aside">
 
-    <div class="sidebar">
+    <nav class="sidebar">
 
-      <img src="images/logo.png" > 
+ <div id="link">
+    <img id="logo33" src="images/logo.png" > 
       <p id="sidebar1"> Dashboard </p>
-      <p id="sidebar1"> Customers  </p>
-      <p id="sidebar1"> Appointments</p>
-      <p id="sidebar1"> Messages  </p>
+      <a href="book.php" id="sidebar1"> Appointments</a>
+      <a href="contact.php" id="sidebar1"> Messages  </a>
+      <a href="index.php" id="sidebar1"> Back to website  </a>
 
-    </div>
+</div>
 
+</nav>
 
+  <div id="footer">
 
-    <h1 id="db1"> YOUR DASHBOARD </h1>
+    <div id="pjs22">
+
+    <h1 id="db1"> MY DASHBOARD </h1>
     <p id="welcome" > Welcome back! </p>
-
+ 
 
     <div id="tabela1" >
         
     <h4 id="recent" > Recent appointments </h4>
-    <table> 
+    <table id="table-card"> 
         <tr> 
             <th> id </th>
             <th> Name </th>
@@ -40,7 +46,8 @@
         </tr>
 
     </div>
-
+</div>
+</div>
     
 
         <?php
@@ -50,10 +57,10 @@
 
 
     $sql= "SELECT *  FROM appointments";
-      $getAppointments=$conn->prepare($sql);
+    $getAppointments=$conn->prepare($sql);
   
-  $getAppointments->execute();
-  $appointments = $getAppointments->fetchAll();
+    $getAppointments->execute();
+    $appointments = $getAppointments->fetchAll();
 
 
   foreach ($appointments as $appointment) {
@@ -66,8 +73,8 @@
     <td><?= $appointment['appointment_date'] ?> </td>
     <td><?= $appointment['appointment_time'] ?> </td>
   <td>
-    <button> <a href="delete.php?id=<?php echo $appointment['id'] ?>"> delete </a> </button>
-            <button> <a href="edit.php?id=<?php echo $appointment['id'] ?>"> edit </a> </button>
+    <button id="btn90"> <a id="btn90" href="delete.php?id=<?php echo $appointment['id'] ?>"> delete </a> </button>
+            <button id="btn90"> <a id="btn90" href="edit.php?id=<?php echo $appointment['id'] ?>"> edit </a> </button>
 </td>
   </td>
 </tr>
@@ -85,7 +92,7 @@
 <div id="tabela2" >
         
     <h4 id="recent1" > Recent messages </h4>
-    <table> 
+    <table id="table-card"> 
         <tr> 
             <th> id </th>
             <th> Name </th>
@@ -121,15 +128,14 @@
     <td><?= $message['message'] ?> </td>
   
   <td>
-    <button> <a href="delete.php?id=<?php echo $message['id'] ?>"> delete </a> </button>
-            <button> <a href="edit.php?id=<?php echo $message['id'] ?>"> edit </a> </button>
-</td>
+    <button id="btn90"> <a id="btn90" href="delete.php?id=<?php echo $message['id'] ?>"> delete </a> </button>
+            
   </td>
 </tr>
 <?php } ?>
 </table>
 
-   
+
 </body>
 </html>
 
