@@ -8,7 +8,8 @@ $time=$_POST["appointment_time"];
 $service=$_POST["service"];
 
 
-$sql = "INSERT INTO appointments (  name , surname , appointment_date , appointment_time , service  ) VALUES (  :name , :surname , :appointment_date , :appointment_time , :service  )";
+$sql = "INSERT INTO appointments (  name , surname , appointment_date , appointment_time , service  ) 
+VALUES (  :name , :surname , :appointment_date , :appointment_time , :service  )";
 
 
 $statement = $conn ->prepare ($sql);
